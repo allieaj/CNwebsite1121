@@ -1,0 +1,29 @@
+h1 {color: red;
+    font-size: 42px;
+    text-align: center;}
+
+/*Every instance of h1, this should be done to it*/
+
+.SpecificP1 {color: black;font-size: 12px;}
+
+body   {
+    background-image: url("IMG_9304\ copy.jpg");
+    background-attachment:fixed;
+    background-repeat:no-repeat;
+    background-size:100%;
+    
+}
+
+.navbar  {
+    display: flex;
+    background-color: black;
+    height: 40px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+
+}
+/* navbar a is for anchor - change colour of the links only*/
+.navbar a:hover {
+    color: cadetblue;
+}
